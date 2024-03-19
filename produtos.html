@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Catálogo</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img class="logoimg" src="OIG1-removebg-preview.png" alt="">
+            <h1>Ebay Express</h1>
+        </div>
+        <div class="opcoes">
+            <ul>
+                <li><a href="pginicial.html">Página Inical</a></li>
+                <li><a href="produtos.html">Catálogo</a></li>
+                <li><a href="sobnos.html">Sobre Nós</a></li>
+            </ul>
+        </div>
+        <div class="pesquisa">
+            <input type="text" name="" id="pesquisa" placeholder="Pesquise aqui...">
+        </div>
+    </div>
+    <br>
+    <div class="filtro-categoria">
+        <img style="width: 18px;" src="icons8-filtro-24.png" alt="">Filtrar por <select id="filtroCategoria">
+            <option value="">Todas as categorias</option>
+            <option value="electronics">electronics</option>
+            <option value="jewelery">jewelery</option>
+            <option value="men's clothing">men's clothing</option>
+            <option value="women's clothing">women's clothing</option>
+        </select>
+    </div>
+    <div id="lista-Geral" class="div-total">
+    </div>
+    <script src="api.js"></script>
+</body>
+</html>
